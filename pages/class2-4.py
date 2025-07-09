@@ -21,4 +21,4 @@ elif score >= 70:
 elif score >= 60:
     st.write("你的等級是D")
 else:
-    st.write("你的等級是F")
+    st.write("你的等級是E")

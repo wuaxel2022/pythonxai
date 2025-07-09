@@ -30,19 +30,11 @@ print(not False)  # true
 
 # 密碼門檢查
 password = input("請輸入密碼：")
-if password == "1231":
+if password == "1234":
     print("歡迎楚霖！")
-else:  # 否則
-    print("密碼錯誤！")
-
-password = input("請輸入密碼：")
-if password == "1232":
+elif password == "4567":
     print("歡迎楚霖的媽媽！")
-else:  # 否則
-    print("密碼錯誤！")
-
-password = input("請輸入密碼：")
-if password == "1233":
+elif password == "7890":
     print("歡迎楚霖的爸爸！")
 else:  # 否則
     print("密碼錯誤！")
